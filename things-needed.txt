@@ -1,0 +1,10 @@
+Dependencies needed by dwm:
+xorg (evidently), make, gcc, libx11-dev, libxft-dev, libxinerama-dev, dmenu
+
+Dependencies needed by my configuration:
+awesome font, sakura
+
+
+PD: the names of the dependencies may change depending of the distribution you are running
+PD1: the depencies of my config can be excluded but you will need to edit something and probably something may change, for example, if you dont want fontawesome you will lost "emojis" of the bar
+

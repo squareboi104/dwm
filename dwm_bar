@@ -6,7 +6,7 @@
 
 #Bar
 datt(){
-    dat="$(date --utc +%H:%M:%S)"
+    dat="$(date +%H:%M:%S)"
     echo -e "$dat"
 }
 

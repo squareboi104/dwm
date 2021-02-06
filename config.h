@@ -20,7 +20,7 @@ static const char *colors[][3]      = {
 };
 
 /* tagging */
-static const char *tags[] = { " ", " "," ", " ", " ", " ", " ", " ", " " }; // Other unicode icons >  爵    
+static const char *tags[] = { " ", " "," ", " ", " ", " ", " ", " ", " " }; // Other unicode icons >  爵   
 
 static const Rule rules[] = {
 	/* xprop(1):

@@ -12,8 +12,8 @@ static const char col_gray1[]       = "#222222"; //background color
 static const char col_gray2[]       = "#444444"; //inactive window border color
 static const char col_gray3[]       = "#bbbbbb"; //font color
 static const char col_gray4[]       = "#eeeeee"; //current tag and current window font color
-//static const char col_cyan[]        = "#3971ED"; //Top bar second color (blue) and active window border color
-static const char col_cyan[]        = "#FF0000"; //Top bar second color (blue) and active window border color
+static const char col_cyan[]        = "#3971ED"; //Top bar second color (blue) and active window border color
+//static const char col_cyan[]        = "#FF0000"; //Top bar second color (blue) and active window border color
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },

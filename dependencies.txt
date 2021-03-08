@@ -2,7 +2,7 @@ Dependencies needed by dwm:
 xorg (evidently), make, gcc, libx11-dev, libxft-dev, libxinerama-dev, dmenu
 
 Dependencies needed by my configuration:
-awesomefont, mononoki nerd font, urxvt
+awesomefont, mononoki nerd font, alacritty
 
 
 PD: the names of the dependencies may change depending of the distribution you are running

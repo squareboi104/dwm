@@ -10,8 +10,8 @@ static const int systraypinningfailfirst = 1;   /* 1: if pinning fails, display 
 static const int showsystray        = 1;     /* 0 means no systray */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "Mononoki Nerd Font:size=12", "fontawesome:size=12" };
-static const char dmenufont[]       = "Mononoki Nerd Font:size=11";
+static const char *fonts[]          = { "Inconsolata Nerd Font:size=12", "fontawesome:size=12" };
+static const char dmenufont[]       = "Inconsolata Nerd Font:size=11";
 static const char col_gray1[]       = "#222222"; //background color
 static const char col_gray2[]       = "#444444"; //inactive window border color
 static const char col_gray3[]       = "#bbbbbb"; //font color

@@ -18,7 +18,6 @@ static const char col_gray2[]       = "#444444"; //inactive window border color
 static const char col_gray3[]       = "#3ADBF7"; //font color - BLUE
 //static const char col_gray4[]       = "#eeeeee"; //current tag and current window font color
 static const char col_gray4[]       = "#1D1F21"; //current tag and current window font color - BLACK
-
 //static const char col_cyan[]        = "#3971ED"; //Top bar second color (blue) and active window border color - BLUE
 //static const char col_cyan[]        = "#B42132"; //Top bar second color (blue) and active window border color - RED
 static const char col_cyan[]        = "#FB0C84"; // PINK
@@ -69,7 +68,7 @@ static const Layout layouts[] = {
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
 static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, "-sb", col_cyan, "-sf", col_gray4, NULL };
 
-static const char *termcmd[]  = { "alacritty", NULL };
+static const char *termcmd[]  = { "urxvt", NULL };
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */

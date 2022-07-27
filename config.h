@@ -1,7 +1,7 @@
 /* See LICENSE file for copyright and license details. */
 
 /* appearance */
-static const unsigned int borderpx  = 2;        /* border pixel of windows */
+static const unsigned int borderpx  = 2.5;        /* border pixel of windows */
 static const unsigned int gappx     = 50;        /* gaps between windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const unsigned int systraypinning = 0;   /* 0: sloppy systray follows selected monitor, >0: pin systray to monitor X */
@@ -11,16 +11,27 @@ static const int showsystray        = 1;     /* 0 means no systray */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "Inconsolata Nerd Font:size=12", "fontawesome:size=12" };
-static const char dmenufont[]       = "Inconsolata Nerd Font:size=11";
+static const char dmenufont[]       = "Inconsolata Nerd Font:size=12";
+
 static const char col_gray1[]       = "#222222"; //background color
-static const char col_gray2[]       = "#444444"; //inactive window border color
+
+//static const char col_gray2[]       = "#444444"; //inactive window border color
+static const char col_gray2[]       = "#303030"; //inactive window border color - BLACK - SAMURAI
+                                                 
 //static const char col_gray3[]       = "#bbbbbb"; //font color
-static const char col_gray3[]       = "#3ADBF7"; //font color - BLUE
+//static const char col_gray3[]       = "#3ADBF7"; //font color - BLUE - NIGHTCITYNEON
+static const char col_gray3[]       = "#b9b9b9"; //font color - WHITE/LIGHT GRAY - SAMURAI
+
 //static const char col_gray4[]       = "#eeeeee"; //current tag and current window font color
-static const char col_gray4[]       = "#1D1F21"; //current tag and current window font color - BLACK
+//static const char col_gray4[]       = "#1D1F21"; //current tag and current window font color - BLACK - NIGHTCITYNEON
+static const char col_gray4[]       = "#303030"; //current tag and current window font color - BLACK - SAMURAI
+
 //static const char col_cyan[]        = "#3971ED"; //Top bar second color (blue) and active window border color - BLUE
 //static const char col_cyan[]        = "#B42132"; //Top bar second color (blue) and active window border color - RED
-static const char col_cyan[]        = "#FB0C84"; // PINK
+//static const char col_cyan[]        = "#FB0C84"; //Top bar second color (blue) and active window border color - PINK - NIGHTCITYNEON
+//static const char col_cyan[]        = "#F7F7F7"; //Top bar second color (blue) and active window border color - WHITE - SAMURAI
+static const char col_cyan[]        = "#CCCCCC"; //Top bar second color (blue) and active window border color - LIGHT GRAY - SAMURAI
+//static const char col_cyan[]        = "#EEEEEE"; //Top bar second color (blue) and active window border color - WHITE - SAMURAI
 
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
@@ -29,7 +40,7 @@ static const char *colors[][3]      = {
 };
 
 /* tagging */
-static const char *tags[] = { " ", " "," ", " ", " ", " ", " ", " ", " " }; // Other unicode icons >  爵   
+static const char *tags[] = { " ", " "," ", " ", " ", " ", "", " ", " " }; // Other unicode icons >   爵             磊 喇 ﲾ
 
 static const Rule rules[] = {
 	/* xprop(1):

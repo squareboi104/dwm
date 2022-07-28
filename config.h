@@ -37,6 +37,7 @@ static const char col_gray4[]       = "#3b4252"; //current tag and current windo
 //static const char col_cyan[]        = "#CCCCCC"; //Top bar second color (blue) and active window border color - LIGHT GRAY - SAMURAI
 //static const char col_cyan[]        = "#EEEEEE"; //Top bar second color (blue) and active window border color - WHITE - SAMURAI
 static const char col_cyan[]        = "#81a1c1"; //Top bar second color (blue) and active window border color - BLUE - FUJI
+//static const char col_cyan[]        = "#5f819d"; //Top bar second color (blue) and active window border color - BLUE - FUJI
 
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */

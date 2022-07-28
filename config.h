@@ -16,22 +16,27 @@ static const char dmenufont[]       = "Inconsolata Nerd Font:size=12";
 static const char col_gray1[]       = "#222222"; //background color
 
 //static const char col_gray2[]       = "#444444"; //inactive window border color
-static const char col_gray2[]       = "#303030"; //inactive window border color - BLACK - SAMURAI
+//static const char col_gray2[]       = "#303030"; //inactive window border color - BLACK - SAMURAI
+static const char col_gray2[]       = "#d8dee9"; //inactive window border color - WHITE - FUJI
                                                  
 //static const char col_gray3[]       = "#bbbbbb"; //font color
 //static const char col_gray3[]       = "#3ADBF7"; //font color - BLUE - NIGHTCITYNEON
-static const char col_gray3[]       = "#b9b9b9"; //font color - WHITE/LIGHT GRAY - SAMURAI
+//static const char col_gray3[]       = "#b9b9b9"; //font color - WHITE/LIGHT GRAY - SAMURAI
+//static const char col_gray3[]       = "#e5e9f0"; //font color - WHITE - FUJI
+static const char col_gray3[]       = "#d8dee9"; //font color - WHITE - FUJI
 
 //static const char col_gray4[]       = "#eeeeee"; //current tag and current window font color
 //static const char col_gray4[]       = "#1D1F21"; //current tag and current window font color - BLACK - NIGHTCITYNEON
-static const char col_gray4[]       = "#303030"; //current tag and current window font color - BLACK - SAMURAI
+//static const char col_gray4[]       = "#303030"; //current tag and current window font color - BLACK - SAMURAI
+static const char col_gray4[]       = "#3b4252"; //current tag and current window font color - GRAY - FUJI
 
 //static const char col_cyan[]        = "#3971ED"; //Top bar second color (blue) and active window border color - BLUE
 //static const char col_cyan[]        = "#B42132"; //Top bar second color (blue) and active window border color - RED
 //static const char col_cyan[]        = "#FB0C84"; //Top bar second color (blue) and active window border color - PINK - NIGHTCITYNEON
 //static const char col_cyan[]        = "#F7F7F7"; //Top bar second color (blue) and active window border color - WHITE - SAMURAI
-static const char col_cyan[]        = "#CCCCCC"; //Top bar second color (blue) and active window border color - LIGHT GRAY - SAMURAI
+//static const char col_cyan[]        = "#CCCCCC"; //Top bar second color (blue) and active window border color - LIGHT GRAY - SAMURAI
 //static const char col_cyan[]        = "#EEEEEE"; //Top bar second color (blue) and active window border color - WHITE - SAMURAI
+static const char col_cyan[]        = "#81a1c1"; //Top bar second color (blue) and active window border color - BLUE - FUJI
 
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
